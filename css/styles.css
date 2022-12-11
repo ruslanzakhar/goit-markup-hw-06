@@ -770,12 +770,16 @@ color: var(--accent-color);
     width: 358px;
     background-color: var(--hero-bg-color);
     color: rgba(255, 255, 255, 0.3);
-    
 }
-
+ .footer-input:hover,
+ .footer-input:focus{
+    border-color: rgba(33, 150, 255, 0.3);
+    
+ }
 
 .form-field input:focus-within{
     border-color:  rgba(33, 150, 243, 0.3);
+    border-color:  rgba(33, 150, 255, 0.3);
     outline: none;
 }
 
@@ -787,6 +791,7 @@ color: var(--accent-color);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color);
+    
     }
 
 .form-field input{
@@ -798,7 +803,7 @@ color: var(--accent-color);
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    color: var(--head-title-color); 
+    color: var(--main-color); 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);    
 }
 
