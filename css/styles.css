@@ -1007,17 +1007,10 @@ color: var(--accent-color);
     margin: 0 auto;
     }
 
-.checkbox-input{
-    width: 0;
-    height: 0;
-    opacity: 0;
-    z-index: -1;
-}
-
 .chekbox-custom{
     position: relative;
     width: 16px;
-    height: 15px;
+    height: 16px;
     border: 2px solid ;
     border-radius: 2px;
     background-color: var(--main-color);
@@ -1031,7 +1024,7 @@ color: var(--accent-color);
     height: 18px;
     background-image: url(../images/icon_check.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1041,6 +1034,7 @@ color: var(--accent-color);
 
 .checkbox-input:checked + .chekbox-custom::before{
     transform: translate(-50%, -50%) scale(1);
+    border-radius: 2px;
 }
 
 
@@ -1054,11 +1048,6 @@ color: var(--accent-color);
     padding-right: 5px;
     padding-left: 7px;
  }
-
- 
-
- 
-
 
 .checkbox-link{
 
