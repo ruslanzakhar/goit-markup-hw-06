@@ -779,7 +779,6 @@ color: var(--accent-color);
 
 .form-field input:focus-within{
     border-color:  rgba(33, 150, 243, 0.3);
-    border-color:  rgba(33, 150, 255, 0.3);
     outline: none;
 }
 
